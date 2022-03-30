@@ -1,0 +1,27 @@
+.jmcard--main-container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 100%;
+	.link-icon {
+		@include generateIcon(24px, 24px, "../images/new_platinum_images/arrow_forward-blue.svg");
+    	margin-left: 8px;
+	}
+	.card {
+		border: none;
+	}
+	h2 {
+		>.wrap-three {
+			margin-top: 10px;
+			margin-bottom: 25px;
+			margin-right: 40%;
+		}
+	}
+	h1.card-block-header {
+		margin-bottom: 40px;
+	}
+	.card-body {
+		border-bottom: 15px solid $jmEgyptianBlueColor;
+	}
+}
